@@ -14,11 +14,11 @@ El script cuenta con dos modalidades configurables:
 ---
 
 ## 🛠️ Tecnologías y Librerías Utilizadas
-* **Python:** Lenguaje principal de programación.
-* **Requests:** Realización de peticiones HTTP para la obtención del código fuente HTML.
-* **BeautifulSoup (bs4):** Parseo, análisis y extracción selectiva de elementos del DOM.
-* **Pandas:** Estructuración de datos tabulares y exportación a Excel.
-* **OpenPyXL:** Motor subyacente para la escritura de archivos .xlsx.
+* Python: Lenguaje principal de programación.
+* Requests: Realización de peticiones HTTP para la obtención del código fuente HTML.
+* BeautifulSoup (bs4): Parseo, análisis y extracción selectiva de elementos del DOM.
+* Pandas: Estructuración de datos tabulares y exportación a Excel.
+* OpenPyXL: Motor subyacente para la escritura de archivos .xlsx.
 
 ---
 
