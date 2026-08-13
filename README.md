@@ -14,11 +14,11 @@ El script cuenta con dos modalidades configurables:
 ---
 
 ## 🛠️ Tecnologías y Librerías Utilizadas
-**Python:** Lenguaje principal de programación.
-**Requests:** Realización de peticiones HTTP para la obtención del código fuente HTML.
-**BeautifulSoup (bs4):** Parseo, análisis y extracción selectiva de elementos del DOM.
-**Pandas:** Estructuración de datos tabulares y exportación a Excel.
-**OpenPyXL:** Motor subyacente para la escritura de archivos .xlsx.
+* **Python:** Lenguaje principal de programación.
+* **Requests:** Realización de peticiones HTTP para la obtención del código fuente HTML.
+* **BeautifulSoup (bs4):** Parseo, análisis y extracción selectiva de elementos del DOM.
+* **Pandas:** Estructuración de datos tabulares y exportación a Excel.
+* **OpenPyXL:** Motor subyacente para la escritura de archivos .xlsx.
 
 ---
 
@@ -38,6 +38,6 @@ python E-commerce_Scraper.py
 Al finalizar, se generará de manera automática el archivo libros_extraidos.xlsx listo para su uso.
 
 ## 🔄 Funcionamiento del Código
-**Control de Errores HTTP:** Valida el estatus de la respuesta del servidor (status_code == 200) antes de procesar cualquier página para evitar caídas inesperadas.
-**Limpieza en Tiempo de Ejecución:** Realiza transformaciones clave al vuelo, como limpiar símbolos monetarios (£), convertir los precios de texto a números flotantes (float) y eliminar espacios sobrantes con .strip().
-**Trazabilidad:** Agrega una columna de control (Pagina) para identificar exactamente el origen de cada registro extraído.
+* **Control de Errores HTTP:** Valida el estatus de la respuesta del servidor (status_code == 200) antes de procesar cualquier página para evitar caídas inesperadas.
+* **Limpieza en Tiempo de Ejecución:** Realiza transformaciones clave al vuelo, como limpiar símbolos monetarios (£), convertir los precios de texto a números flotantes (float) y eliminar espacios sobrantes con .strip().
+* **Trazabilidad:** Agrega una columna de control (Pagina) para identificar exactamente el origen de cada registro extraído.
